@@ -24,7 +24,7 @@ export default function Modal(props: Props) {
     setIsOpen(true);
     setOpenedModal;
   }
-  const Modals ={
+  const Modals:any ={
     Browser: <GoogleSearch />,
     News: <News />,
     Gallery: <Gallery />,
